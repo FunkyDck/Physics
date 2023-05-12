@@ -183,8 +183,6 @@ const createBox = (width, height, depth, position) => {
   objectsToUpdate.push({ mesh, body });
 };
 
-createBox(1, 1.5, 2, { x: 0, y: 3, z: 0 });
-
 /**
  * Floor
  */
